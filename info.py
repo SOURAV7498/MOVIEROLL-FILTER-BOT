@@ -10,7 +10,7 @@ from Script import script
 id_pattern = re.compile(r'^.\d+$')
 
 # Bot information
-SESSION = environ.get('SESSION', 'dreamxbotz_search')
+SESSION = environ.get('SESSION', 'the_inert_season')
 API_ID = int(environ.get('API_ID', ''))
 API_HASH = environ.get('API_HASH', '')
 BOT_TOKEN = environ.get('BOT_TOKEN', "")
@@ -59,9 +59,9 @@ DELETE_CHANNELS = [int(dch) if id_pattern.search(dch) else dch for dch in enviro
 
 
 # MongoDB information
-DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://gekasi8728:kingkhan@cluster0.ilgcdab.mongodb.net/?retryWrites=true&w=majority")   # IF Multiple Database Is False Then Fill Only This Database Url.
-DATABASE_NAME = environ.get('DATABASE_NAME', "cluster")
-COLLECTION_NAME = environ.get('COLLECTION_NAME', 'dreamcinezone_files')
+DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://mahatobibek221034_db_files:jlPGQF189vnCYa8P@cluster0.v5weoma.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")   # IF Multiple Database Is False Then Fill Only This Database Url.
+DATABASE_NAME = environ.get('DATABASE_NAME', "theinertguy")
+COLLECTION_NAME = environ.get('COLLECTION_NAME', 'inert_files')
 
 MULTIPLE_DATABASE = bool(environ.get('MULTIPLE_DATABASE', False)) # Set True or False
 
