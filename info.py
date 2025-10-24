@@ -17,7 +17,7 @@ BOT_TOKEN = environ.get('BOT_TOKEN', "8416344037:AAFbuPcxzUI_MSKw_C8kKNhfoo1TSRj
 
 
 # This Pictures Is For Start Message Picture, You Can Add Multiple By Giving One Space Between Each.
-PICS = (environ.get('PICS', 'https://envs.sh/ekL.jpg')).split()
+PICS = (environ.get('PICS', 'https://ibb.co/W46Mj1C3')).split()
 
 
 # Admins & Users
@@ -88,10 +88,10 @@ PUBLIC_FILE_CHANNEL = environ.get('PUBLIC_FILE_CHANNEL', '') # Public Channel Us
 
 
 # Links
-GRP_LNK = environ.get('GRP_LNK', 'https://t.me/Move_Download')
-CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/UniformMovies')
-SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'UniformHelp') # Support Chat Link Without https:// or @
-OWNER_LNK = environ.get('OWNER_LNK', 'https://t.me/darkworld008')
+GRP_LNK = environ.get('GRP_LNK', 'https://t.me/+Uy4hZPZA-Q0yMjI1')
+CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/+-dkKSAGoUf4wZGFl')
+SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'Movieroll_Owner') # Support Chat Link Without https:// or @
+OWNER_LNK = environ.get('OWNER_LNK', 'https://t.me/Movieroll_Owner')
 
 # True Or False
 AI_SPELL_CHECK = bool(environ.get('AI_SPELL_CHECK', True))
@@ -99,7 +99,7 @@ PM_SEARCH = bool(environ.get('PM_SEARCH', True))
 BUTTON_MODE = bool(environ.get('BUTTON_MODE', True))
 MAX_BTN = bool(environ.get('MAX_BTN', True))
 IS_TUTORIAL = bool(environ.get('IS_TUTORIAL', True))
-IMDB = bool(environ.get('IMDB', True))
+IMDB = bool(environ.get('IMDB', False))
 AUTO_FFILTER = bool(environ.get('AUTO_FFILTER', True))
 AUTO_DELETE = bool(environ.get('AUTO_DELETE', True))
 LONG_IMDB_DESCRIPTION = bool(environ.get("LONG_IMDB_DESCRIPTION", False))
@@ -196,6 +196,7 @@ else:
 # Don't Remove Credit @VJ_Botz
 # Subscribe YouTube Channel For Amazing Bot @Tech_VJ
 # Ask Doubt on telegram @KingVJ01
+
 
 
 
